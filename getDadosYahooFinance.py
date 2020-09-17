@@ -216,10 +216,8 @@ while recomeçar:                                                               
             for r, i in zip(res, id):                                       #                          #                                                                                                                      #
                 dateStr = str(i)                                            #                          #                                                                                                                      #
                 idLimp = dateStr[0:10]                                      #                          #                                                                                                                      #
-                r.insert(0, idLimp)
-                print(r);
-                print(idLimp);
-                resultado = 0.0 in r or dateStr in idLimp            #                          #                                                                                                                      #
+                r.insert(0, idLimp)                                         #                          #
+                resultado = 0.0 in r or dateStr in idLimp                   #                          #                                                                                                                      #
                 if resultado == False:                                      #                          #                                                                                                                      #
                     eleminandoDadosFalso.append(r)                          #                          #                                                                                                                      #
                     getVezesDeCadaAtivo.append(c)############################                          #                                                                                                                      #
